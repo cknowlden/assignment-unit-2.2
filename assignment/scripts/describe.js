@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We are assigning nothing to secret, so it is undefined and we are defining code as 123.
+// We are assigning secret as a variable but with nothing assigned to it, so it is undefined and we are defining code as 123.
 // Then, we are saying that if code is the same type and same value as 123, then the secret is super and the code is 123 times 2, which reassigns code to 246
 // Then, if the code is greater than 250, then the secret is "duper" and it will print on the screen nothing, because there's no "" around secret
 //
@@ -153,8 +153,8 @@ if (mix === true) {
 
 /*
 
-// FIX - the instructions say to assign temp and time as variables.  The code below needs to be changed from const time = 4; to say let time = 4;
-// change || to && 
+// FIX - the instructions say that if the temp AND the time is blah blah blah, but the || if this thing is true or this thing is true
+// so change || to && 
 
 let temp = 40;
 const time = 4;
@@ -170,8 +170,7 @@ if (temp > 39 || time >= 4) {
 
 /*
 
-//FIX - instructions say to assign both age and minAge as a variable.  The incorrect code has minAge as a constant.  Change to let minAge = 21;
-// instructions say that we check if the age is greater than or equal to minAge.  The code below is checking if the minAge is less than or equal to age.  
+//FIX - instructions say that we check if the age is greater than or equal to minAge.  The code below is checking if the minAge is less than or equal to age.  
 // so we change it to: 
 // if(age >= minAge) {
 //   console.log('enter');
