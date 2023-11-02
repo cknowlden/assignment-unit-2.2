@@ -47,8 +47,8 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We are assigning secret as a variable but with nothing assigned to it, so it is undefined and we are defining code as 123.
 // Then, we are saying that if code is the same type and same value as 123, then the secret is super and the code is 123 times 2, which reassigns code to 246
-// Then, if the code is greater than 250, then the secret is "duper" and it will print on the screen nothing, because there's no "" around secret
-//
+// Then, if the code is greater than 250, then secret is now assigned to "duper"
+// Lastly, the screen will print out whatever is currently assigned as secret
 
 //CODE
 /*
