@@ -71,10 +71,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // Assigns isStudent as being true, it also assigns age to be 34 and the zip as 55407
-// Then, it says if the isStudent is true and also the zip is greater that 8000, then print "You're a student on the West Coast!"
-// Or, if isStudent is false or if the age is under 30, print out "What are your hobbies?"
-// Or, if isStudent it's equal to true, then print "Welcome to Prime"
-// If any of the above is not true, then last resort, print "How about the weather?"
+// Then, it says if the isStudent is both true and also the zip is greater that 8000, then print "You're a student on the West Coast!"
+// Or, if it is true that isStudent is false or if the age is under 30, print out "What are your hobbies?"
+// Or, if isStudent is equal to true, then print "Welcome to Prime"
+// If any of the above is not true, then last resort, print "How about the weather?" and moonwalk away
 
 //CODE
 /*
@@ -131,6 +131,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - instructions say that colorOne is set to blue, but the code below has it set to red, 
+// so change the code to say let colorOne = 'blue'
+// Instructions say that colorTwo is set to red, but the code below has it set to blue, 
+// so change the code to say let colorTwo = 'red'
+// add colorTwo = 'purple' because it was missing and only colorOne was assigned 'purple' in the incorrect code
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -145,6 +152,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// FIX - the instructions say to assign temp and time as variables.  The code below needs to be changed from const time = 4; to say let time = 4;
+// change || to && 
+
 let temp = 40;
 const time = 4;
 
@@ -158,6 +169,14 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+//FIX - instructions say to assign both age and minAge as a variable.  The incorrect code has minAge as a constant.  Change to let minAge = 21;
+// instructions say that we check if the age is greater than or equal to minAge.  The code below is checking if the minAge is less than or equal to age.  
+// so we change it to: 
+// if(age >= minAge) {
+//   console.log('enter');
+// then delete the console.log('no entry') because the statement above is true.
+
 let age = 21;
 const minAge = 21;
 
