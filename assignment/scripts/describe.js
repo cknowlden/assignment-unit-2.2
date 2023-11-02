@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Assigning the name "Dane" to the variable name
+// stating that if "name" is equal to Mary, then 
+// print on the screen "Hi, Mary!"
+// if the name isn't Mary, the screen will print out "How do you do?"
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We are assigning nothing to secret, so it is undefined and we are defining code as 123.
+// Then, we are saying that if code is the same type and same value as 123, then the secret is super and the code is 123 times 2, which reassigns code to 246
+// Then, if the code is greater than 250, then the secret is "duper" and it will print on the screen nothing, because there's no "" around secret
 //
 
 //CODE
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Assigns isStudent as being true, it also assigns age to be 34 and the zip as 55407
+// Then, it says if the isStudent is true and also the zip is greater that 8000, then print "You're a student on the West Coast!"
+// Or, if isStudent is false or if the age is under 30, print out "What are your hobbies?"
+// Or, if isStudent it's equal to true, then print "Welcome to Prime"
+// If any of the above is not true, then last resort, print "How about the weather?"
 
 //CODE
 /*
